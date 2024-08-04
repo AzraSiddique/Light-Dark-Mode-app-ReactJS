@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  font-size: 36px;
+  border-color: black;
+  font-family: 'Roboto';
+  border-radius: 20px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  font-size: 36px;
+  padding: 20px;
+  font-family: 'Roboto';
+  border-radius: 20px;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
